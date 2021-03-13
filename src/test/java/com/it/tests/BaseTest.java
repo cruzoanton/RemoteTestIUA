@@ -3,6 +3,7 @@ package com.it.tests;
 import com.it.App;
 import com.it.users.User;
 import com.it.users.UserFactory;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 
