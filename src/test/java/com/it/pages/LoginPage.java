@@ -18,8 +18,9 @@ public class LoginPage extends BasePage {
 
 
 
-    public void login(String userName, String password) {
-        inputLogin.clear();
+    public void login(String userName, String password) throws InterruptedException {
+
+            inputLogin.clear();
         inputLogin.sendKeys(userName);
         inputPassword.clear();
         inputPassword.sendKeys(password);
